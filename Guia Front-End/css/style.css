@@ -1,0 +1,41 @@
+    /* Transições suaves e scroll behavior */
+    html {
+        scroll-behavior: smooth;
+    }
+
+    a,
+    button {
+        transition: all 0.2s ease;
+    }
+
+    a:hover {
+        color: #2563eb;
+        text-decoration: none;
+    }
+
+    /* Estilo para cards */
+    .resource-card {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .resource-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Destaque para itens novos */
+    .new-badge {
+        position: relative;
+    }
+
+    .new-badge::after {
+        content: "Novo!";
+        position: absolute;
+        top: -8px;
+        right: -8px;
+        background: #ef4444;
+        color: white;
+        font-size: 0.6rem;
+        padding: 2px 5px;
+        border-radius: 9999px;
+    }
