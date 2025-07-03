@@ -1,6 +1,6 @@
 # 🚀 Guia Front-End Essencial
 
-![Preview](https://i.imgur.com/JKvQ2aT.png)  
+![Preview](https://imgur.com/a/n7QUeR1)  
 *Todos os recursos para desenvolvimento Front-End em um só lugar!*
 
 ## 🔥 Recursos Incluídos
